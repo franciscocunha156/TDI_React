@@ -1,0 +1,1 @@
+export const ENDPOINT = 'http://206.189.117.223/api/articles';
