@@ -101,6 +101,7 @@ a:hover, a:visited, a:link, a:active
     width: 100%;
     margin: auto;
     display: block;
+    height: 200px !important;
 }
 .linkCust{
     color: rgb(17, 17, 17); font-family: 'Helvetica Neue', sans-serif;
@@ -117,6 +118,8 @@ a:hover, a:visited, a:link, a:active
 .divLink{
     margin: 15px 0
      ;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .scrolling-wrapper {
@@ -169,9 +172,9 @@ p {
 
 .cardDetail {
     display: block;
-    width: 600px;
-    height: 500px;
 
+    width: 400px;
+    height: auto;
     margin: auto;
 }
 
@@ -223,4 +226,11 @@ p {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+
+.imgCustDetail{
+
+    margin: auto;
+    display: block;
+    height: 200px !important;
 }
